@@ -61,7 +61,7 @@ prismjs:
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
   path: ''
-  per_page: 10
+  per_page: 12
   order_by: -date
 
 # Category & Tag
@@ -103,4 +103,21 @@ theme: hexo-theme-matery
 deploy:
   type: git
   repo: https://github.com/axT0rnado/axT0rnado.github.io.git
-  branch: main
+  branch: gh-pages
+
+# Search
+search:
+  path: search.xml
+  field: post
+
+# Permalink
+permalink_pinyin:
+  enable: true
+  separator: '-' # default: '-'
+
+# Count
+wordCount:
+  enable: true # 将这个值设置为 true 即可.
+  postWordCount: true
+  min2read: true
+  totalCount: true

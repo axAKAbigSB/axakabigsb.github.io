@@ -101,4 +101,6 @@ theme: hexo-theme-matery
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repo: https://github.com/axT0rnado/axT0rnado.github.io.git
+  branch: main

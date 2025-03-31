@@ -13,7 +13,7 @@ timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://axakabigsb.github.io/
+url: https://axT0rnado.github.io/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -22,8 +22,8 @@ pretty_urls:
 
 # Directory
 source_dir: source
-public_dir: 公共
-tag_dir: 标签
+public_dir: public
+tag_dir: tags
 archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
@@ -102,7 +102,7 @@ theme: hexo-theme-matery
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: https://github.com/axAKAbigSB/axakabigsb.github.io.git
+  repo: https://github.com/axT0rnado/axT0rnado.github.io.git
   branch: gh-pages
 
 # Search

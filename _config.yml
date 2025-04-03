@@ -13,7 +13,7 @@ timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://axT0rnado.github.io/
+url: https://github.com/axAKAbigSB/axakabigsb.github.io
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -101,23 +101,22 @@ theme: hexo-theme-matery
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: git
-  repo: https://github.com/axT0rnado/axT0rnado.github.io.git
-  branch: gh-pages
-
+  type: 
+  repo: 
+  branch: 
 # Search
-search:
-  path: search.xml
-  field: post
+# search:
+#   path: search.xml
+#   field: post
 
-# Permalink
-permalink_pinyin:
-  enable: true
-  separator: '-' # default: '-'
+# # Permalink
+# permalink_pinyin:
+#   enable: true
+#   separator: '-' # default: '-'
 
-# Count
-wordCount:
-  enable: true # 将这个值设置为 true 即可.
-  postWordCount: true
-  min2read: true
-  totalCount: true
+# # Count
+# wordCount:
+#   enable: true # 将这个值设置为 true 即可.
+#   postWordCount: true
+#   min2read: true
+#   totalCount: true

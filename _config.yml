@@ -41,19 +41,17 @@ external_link:
 filename_case: 0
 render_drafts: false
 post_asset_folder: true
+marked:
+  prependRoot: true
+  postAsset: true
 relative_link: false
 future: true
 syntax_highlighter: highlight.js
 highlight:
-  line_number: true
-  auto_detect: false
-  tab_replace: ''
-  wrap: true
-  hljs: false
+  enable: true
 prismjs:
-  preprocess: true
-  line_number: true
-  tab_replace: ''
+  enable: true
+
 
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
@@ -96,7 +94,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: hexo-theme-matery
+theme: volantis
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
@@ -104,19 +102,5 @@ deploy:
   type: 
   repo: 
   branch: 
-# Search
-# search:
-#   path: search.xml
-#   field: post
-
-# # Permalink
-# permalink_pinyin:
-#   enable: true
-#   separator: '-' # default: '-'
-
-# # Count
-# wordCount:
-#   enable: true # 将这个值设置为 true 即可.
-#   postWordCount: true
-#   min2read: true
-#   totalCount: true
+# 网站icon
+favicon: https://www.helloimg.com/i/2025/04/05/67f004081dc2b.jpg

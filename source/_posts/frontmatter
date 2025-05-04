@@ -1,0 +1,5 @@
+excerpt: xxxx #指定摘要
+hide: true #不在首页和其他归档分类页里展示
+archive: true #在归档页展示
+sticky: 100 #置顶文章，数字越大越靠前
+index_img: /img/example.jpg #文章列表页的缩略图

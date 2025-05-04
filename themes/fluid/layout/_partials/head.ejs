@@ -49,6 +49,6 @@ var ogConfig = Object.assign({ image: ogImage && url_for(ogImage) }, theme.open_
   <%- js_ex(theme.static_prefix.internal_js, 'utils.js') %>
   <%- js_ex(theme.static_prefix.internal_js, 'color-schema.js') %>
   <%- partial('_partials/plugins/analytics.ejs') %>
-
+  <link rel="stylesheet" href="<%= url_for('source/css/_custom.css') %>">
   <%- inject_point('head') %>
 </head>

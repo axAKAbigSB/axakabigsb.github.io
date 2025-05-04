@@ -1,0 +1,4 @@
+.small-image {
+    width: 300px; /* 设置宽度 */
+    height: auto; /* 高度自动，保持图片比例 */
+  }

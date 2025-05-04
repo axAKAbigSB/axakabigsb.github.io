@@ -2,7 +2,6 @@
 title: 关于hexo无法正常显示图片的解决方案
 date: 2025-04-04 22:18:02
 author: 暗宵
-cover: true
 tags:
   - 编程
   - 教程

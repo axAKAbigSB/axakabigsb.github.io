@@ -348,7 +348,7 @@ iconfont: //at.alicdn.com/t/c/font_1736178_k526ubmyhba.css
 navbar:
   # 导航栏左侧的标题，为空则按 hexo config 中 `title` 显示
   # The title on the left side of the navigation bar. If empty, it is based on `title` in hexo config
-  blog_title: "Fluid"
+  blog_title: "宵之寂"
 
   # 导航栏毛玻璃特效，实验性功能，可能会造成页面滚动掉帧和抖动，部分浏览器不支持会自动不生效
   # Navigation bar frosted glass special animation. It is an experimental feature
@@ -962,15 +962,16 @@ about:
   banner_img: /img/default.png
   banner_img_height: 60
   banner_mask_alpha: 0.3
-  avatar: /img/avatar.png
-  name: "Fluid"
-  intro: "An elegant theme for Hexo"
+  avatar: /img/icon.jpg
+  name: "暗宵"
+  intro: "只是个苦逼高中生 下方图标扩列谢谢喵~"
   # 更多图标可从 https://hexo.fluid-dev.com/docs/icon/ 查找，`class` 代表图标的 css class，添加 `qrcode` 后，图标不再是链接而是悬浮二维码
   # More icons can be found from https://hexo.fluid-dev.com/docs/en/icon/  `class` is the css class of the icon. If adding `qrcode`, the icon is no longer a link, but a hovering QR code
   icons:
-    - { class: "iconfont icon-github-fill", link: "https://github.com", tip: "GitHub" }
-    - { class: "iconfont icon-douban-fill", link: "https://douban.com", tip: "豆瓣" }
-    - { class: "iconfont icon-wechat-fill", qrcode: "/img/favicon.png" }
+    - { class: "iconfont icon-github-fill", link: "https://github.com/axAKAbigSB", tip: "GitHub" }
+    - { class: "iconfont icon-qq-fill", link: "https://qm.qq.com/cgi-bin/qm/qr?k=h-MyeHuIuO3E2iLvy5hVwxDbDD25WL-Z", tip: "QQ1146734053 若链接无效请手打orz" }
+    - { class: "iconfont icon-twitter-fill", link: "https://x.com/T0rnado5", tip: "X/Twitter" }
+    - { class: "iconfont icon-steam", link: "https://steamcommunity.com/id/T0rnado0721/", tip: "Steam" }
 
 
 #---------------------------

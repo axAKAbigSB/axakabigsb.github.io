@@ -20,7 +20,7 @@ excerpt: Revanced使用图文教程
 与XPosed的模块注入不同 Revanced在APK上直接修改定制功能
 Revanced修补后的APK可直接用于非Root设备上
 而无需XPosed的复杂流程操作（其实Root就算是国内用户最大的门槛了吧）
-当然 因为只在APK层面动手 所以绕绕会员限制之类的就好了
+当然 因为只在**APK层面**动手 所以绕绕会员限制之类的就好了
 ~~别告诉我你想自定义系统级设置~~
 
 # 功能示例
@@ -41,7 +41,7 @@ Revanced修补后的APK可直接用于非Root设备上
 [官网链接（推荐）](https://revanced.app/download)
 [Github Release](https://github.com/ReVanced/revanced-manager/releases/latest)
 - 修改App设置
-按下图修改设置
+**按下图修改设置**
 
 <div style="display: flex; justify-content: center; align-items: center; margin: 0 auto;">
   <img src="./通过Revanced实现apk层面的功能破解/3.jpg" alt="更改语言" style="width: auto; height: 500px; margin-right: 2px;">
@@ -50,22 +50,22 @@ Revanced修补后的APK可直接用于非Root设备上
 </div>
 
 - 下载安装包
-在上右图中找到需要修补的App并点击建议版本
+在上右图中找到需要修补的App并点击**建议版本**
 跳转到浏览器后选择一个下载渠道并下载安装包
-若安装包文件格式不为.apk
+若安装包文件格式**不为.apk**
 而是xapk/apkm格式 我愿称之为复合apk（本质上也确实是多个apk缝一起）
-解决方案：下载MT管理器 点选该文件后点击“转为apk”的选项
+解决方案：下载**MT管理器** 点选该文件后点击“转为apk”的选项
 
 - 修补安装包
-有了apk文件后回到右图界面点击存储空间 找到apk文件并选择
+有了apk文件后回到右图界面点击**存储空间** 找到apk文件并选择
 
 <img src="./通过Revanced实现apk层面的功能破解/6.png" style="width: 300px; height: auto;">
 
 出现如图则可进行修补操作
-直接点击右下角的安装补丁使用推荐补丁配置
-或者点击已选补丁自行选择
-修补过程可能较慢 保持前台运行 
-修补完成后点击右下角的安装 若点击后没有跳转安装被直接打断且日志出现Install canceled的字样 返回到主界面重新修补 如多次修补失败则可能是设备或选择的app版本不兼容
+直接点击右下角的**安装补丁**使用推荐补丁配置
+或者点击**已选补丁**自行选择
+修补过程可能较慢 **保持前台运行** 
+修补完成后点击右下角的**安装** 若点击后没有跳转安装被直接打断且日志出现**Install canceled**的字样 返回到主界面**重新修补** 如多次修补失败则可能是设备或选择的app版本不兼容
 
 # 后话
 算是这个博客第一篇比较认真的教程向文章 选了个比较简单的研究 

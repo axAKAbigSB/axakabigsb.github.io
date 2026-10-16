@@ -3,5 +3,3 @@
 
 
 宵之寂 Presonal Blog
-https://axakabigsb.github.io/
-https://t0rnado.netlify.app/
